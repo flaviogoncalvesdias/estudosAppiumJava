@@ -35,7 +35,7 @@ public class Android_Hibrid_app_Test {
 
     public void switchToWebView() {
         Set<String> availableContexts = driver.getContextHandles();
-        for (String context : availableContexts) {
+        for (String context: availableContexts) {
             if (context.contains("WEBVIEW")) {
                 driver.context(context);
                 break;
